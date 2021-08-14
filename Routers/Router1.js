@@ -3,7 +3,7 @@ import uModel from '../DataModel/Model1.js';
 import data from '../Data.js';
 import bcrypt from 'bcryptjs';
 import expressAsyncHandler from 'express-async-handler';
-import { generateToken } from '../utils.js';
+import { generateToken } from '../utility.js';
 
 const uRouter = express.Router();
 
